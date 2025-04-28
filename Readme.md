@@ -1,11 +1,35 @@
-# smo-exlaunch-base-clang
+# smo-cinematic-camera
+(add video here)
+
+SMO Cinematic Camera is an ExeFS mod for Super Mario Odyssey v1.0.0 that allows you to lock the game's camera whenever you want. This allows you to walk around freely with a locked camera angle, which is great for making videos!
+
+This mod is compatible with [LunaKit](https://gamebanana.com/mods/432918), which is recommended for the best experience. You can use either console or Ryujinx.
+
+The repo for this mod was generated from [LynxDev2](https://github.com/LynxDev2)'s [smo-exlaunch-base-clang](https://github.com/LynxDev2/smo-exlaunch-base-clang) template.
+
+## How to use
+Simply press `Dpad Up + Dpad Left` to lock the game's camera in it's current angle. At any point, press `Dpad Up + Dpad Left` again to return the camera to normal.
+
+See the video at the top of the README.md for a demo / visual explanation.
+
+## Installation with LunaKit
+To use smo-cinematic-camera with LunaKit, do the following:
+
+1. Install LunaKit as per the instructions on [GameBanana](https://gamebanana.com/mods/432918).
+2. Rename this mod's `subsdk9` to `subsdk8` and add it next to LunaKit's `subsdk9`
+3. Thank [Amethyst-szs](https://github.com/Amethyst-szs) for LunaKit cuz it's amazing 
+
+------------------------------
+
+## Original Exlaunch Clang Base Readme
 A base project that allows you to create code mods for smo with exlaunch using clang.
 This also includes a custom actor factory to allow adding custom actors.
 
 This project uses [Sanae](https://github.com/Sanae6)'s [marsmallow](https://github.com/odyssey-modding/marshmallow) as a base. Marsmallow allows you to make switch mods using clang.
 
-## Original Marshmallow Readme
 ------------------------------
+
+## Original Marshmallow Readme
 A clang based version of [exlaunch](https://github.com/shadowninja108/exlaunch/) with some useful built-in tools.
 Supporting clang directly allows better integration with IDEs via clangd and various other clang tools.
 This project does not depend on the devkitPro switch toolchain.
@@ -58,6 +82,8 @@ You will need Node.js if you want to use logserver.js, otherwise you should make
   - what title id to use when placing deployments into `/atmosphere/contents/FTP_TITLE_ID/exefs/`
 
 ## Credits
+- [LynxDev2](https://github.com/LynxDev2)
+  - [smo-exlaunch-base-clang](https://github.com/LynxDev2/smo-exlaunch-base-clang)
 - [shadowninja108](https://github.com/shadowninja108)
   - [exlaunch](https://github.com/shadowninja108/exlaunch)
   - Lots of love <3

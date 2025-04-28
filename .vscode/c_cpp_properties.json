@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "EXL_LOAD_KIND=Module",
+                "EXL_LOAD_KIND_ENUM=EXL_LOAD_KIND_MODULE"
+            ],
+            "compilerPath": "/usr/bin/clang-18",
+            "cStandard": "c17",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
