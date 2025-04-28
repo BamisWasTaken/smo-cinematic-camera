@@ -1,5 +1,6 @@
 # smo-cinematic-camera
-(add video here)
+*Click here to see the mod in action*
+[![YouTube Mod Showcase](./assets/ytvideo.png)](https://www.youtube.com/watch?v=_xVYT_mBlcU)
 
 SMO Cinematic Camera is an ExeFS mod for Super Mario Odyssey v1.0.0 that allows you to lock the game's camera whenever you want. This allows you to walk around freely with a locked camera angle, which is great for making videos!
 
